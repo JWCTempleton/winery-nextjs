@@ -1,6 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
+import Home from "../components/Home";
 
-export default function Home() {
-  return <div>Test</div>;
+export default function App() {
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 }
