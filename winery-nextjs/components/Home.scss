@@ -1,15 +1,24 @@
 .home {
+    background-image: linear-gradient(to right bottom, hsla(288,100%,10%, 0.6) ,hsla(288, 100%, 6%, 0.8)), url(../images/ofv_img.jpg);
+    background-size: cover;
+    background-position: center right;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: hsl(288, 100%, 6%);
     color: hsl(288, 100%, 95%);
     height: 100vh;
+    padding-top: 13rem;
     
     &-title {
         text-transform: uppercase;
-        font-size: 5rem;
+        font-size: 6rem;
         letter-spacing: .6rem;
+    }
+
+    &-logo {
+        width: 6rem;
+    
     }
 }
