@@ -17,8 +17,21 @@
         letter-spacing: .6rem;
     }
 
-    &-logo {
-        width: 6rem;
-    
+    &-button {
+        padding: 1.6rem 2.2rem;
+        border-style: none;
+        border-radius: .8rem;
+        margin-top: 3rem;
+        background-color: hsl(288,100%,18%);
+        color: hsl(288, 100%, 95%);
+        font-size: 2rem;
+        cursor: pointer;
+        box-shadow: 0 3px 6px hsla(288,100%,18%,0.16), 0 3px 6px hsla(288,100%,18%,0.23);
+
+
+        &:hover {
+            background-color: hsl(288,100%,20%);
+            box-shadow: 0 14px 28px hsla(288,100%,18%,0.25), 0 10px 10px hsla(288,100%,18%,0.23);
+        }
     }
 }

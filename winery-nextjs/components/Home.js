@@ -18,6 +18,7 @@ export default function Home() {
     <div className="home">
       <LogoImage />
       <h1 className="home-title">Olney Family Vineyards</h1>
+      <button className="home-button">Our Wines</button>
     </div>
   );
 }
