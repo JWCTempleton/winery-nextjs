@@ -15,8 +15,16 @@ export default function NavBar() {
   };
   return (
     <nav className="navBar">
-      <div className="navBar-container">
+      <div className="nav-container">
         <LogoImage />
+        <ul>
+          <li>Home</li>
+          <li>Our Wines</li>
+          <li>About</li>
+          <li>Contact Us</li>
+          <li>Visit Us</li>
+          <li>CA Prop 65</li>
+        </ul>
       </div>
     </nav>
   );

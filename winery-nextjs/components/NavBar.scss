@@ -1,12 +1,26 @@
 .navBar {
-    background-color: hsl(288, 100%, 6%);    position: fixed;
+    background-color: hsl(288, 100%, 6%);    
+    position: fixed;
     top: 0;
     width: 100vw;
 
-    &-container {
+    .nav-container {
         display: flex;
         max-width: 80rem;
         margin: 0 auto;
         padding: 1rem;
+        align-items: center;
+        justify-content: space-between;
     }
+    ul {
+        display: flex;
+        gap:1.5rem;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        color: white;
+    }
+    
+
+   
 }
