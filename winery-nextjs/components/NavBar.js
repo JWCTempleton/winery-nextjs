@@ -9,8 +9,8 @@ export default function NavBar() {
         className="home-logo"
         src={ofvLogo}
         alt="ofv logo"
-        height="50px"
-        width="50px"
+        height={50}
+        width={50}
       />
     );
   };

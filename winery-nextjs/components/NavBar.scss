@@ -4,12 +4,17 @@
     top: 0;
     width: 100vw;
 
+    
     .nav-container {
         display: flex;
         margin: 0 auto;
         padding: 1rem 4rem;
         align-items: center;
         justify-content: space-between;
+
+        @media screen and (max-width:550px) {
+            padding: 1rem 1rem;
+        }
     }
     ul {
         display: flex;
@@ -21,6 +26,20 @@
         font-size: 1.6rem;
         text-transform: uppercase;
         font-weight: 600;
+
+        @media screen and (max-width:550px) {
+            font-size: 1.3rem;
+            gap: 1.6rem
+        }
+
+        @media screen and (max-width:450px) {
+            font-size: 1.1rem;
+            gap: 1.2rem
+        }
+
+        .home-logo {
+            width: 500px;
+        }
     }
     
 
