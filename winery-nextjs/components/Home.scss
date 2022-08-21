@@ -11,6 +11,12 @@
     height: 100vh;
     padding-top: 16rem;
     text-align: center;
+
+    @media screen and (max-width: 650px) {
+        padding-top: 23rem;
+        background-position: center;
+
+    }
     
     &-title {
         text-transform: uppercase;
