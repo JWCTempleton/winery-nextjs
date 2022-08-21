@@ -1,0 +1,12 @@
+.navBar {
+    background-color: hsl(288, 100%, 6%);    position: fixed;
+    top: 0;
+    width: 100vw;
+
+    &-container {
+        display: flex;
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+}
