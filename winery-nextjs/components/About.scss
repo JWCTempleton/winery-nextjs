@@ -14,7 +14,7 @@
     color: hsl(288, 100%, 95%);
     height: 100%;
     width: 100%;
-    gap: 2rem;
+    gap: 3rem;
 
     &-image {
         background-image: url(../images/ofv_flower.jpg);
@@ -31,6 +31,24 @@
         align-items: flex-start;
         justify-content: center;
         height: 100%;
-        width: 66%;
+        width: 63%;
+        line-height: 2.4rem;
+    }
+
+    .para-title {
+        font-size: 4rem;
+        letter-spacing: .3rem;
+        font-weight: 800;
+        margin-top: 5rem;
+    }
+
+    .para-1 {
+        font-size: 1.7rem;
+        margin-top: 1.8rem;
+    }
+
+    .para-2 {
+        font-size: 1.7rem;
+        margin-top: 1.5rem;
     }
 }
