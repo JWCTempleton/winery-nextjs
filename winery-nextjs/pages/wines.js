@@ -7,15 +7,32 @@ export default function OurWines(props) {
     <div className="container">
       <h1 className="ourWines">Our Wines</h1>
       <div className="wine-list">
-        {props.wines.map((wine) => {
-          return (
-            <div className="wine-card" key={wine.id}>
-              <p>{wine.attributes.type}</p>
-              <p>{wine.attributes.name}</p>
-              <p>{wine.attributes.description}</p>
-            </div>
-          );
-        })}
+        <div className="cabSav">
+          {props.wines
+            .filter((wine) => wine.attributes.type === "Cabernet Sauvignon")
+            .map((wine) => {
+              return (
+                <div className="wine-card" key={wine.id}>
+                  <h2>{wine.attributes.type}</h2>
+                  <p>{wine.attributes.name}</p>
+                  <p>{wine.attributes.description}</p>
+                </div>
+              );
+            })}
+        </div>
+        <div className="chard">
+          {props.wines
+            .filter((wine) => wine.attributes.type === "Chardonnay")
+            .map((wine) => {
+              return (
+                <div className="wine-card" key={wine.id}>
+                  <h2>{wine.attributes.type}</h2>
+                  <p>{wine.attributes.name}</p>
+                  <p>{wine.attributes.description}</p>
+                </div>
+              );
+            })}
+        </div>
       </div>
     </div>
   );

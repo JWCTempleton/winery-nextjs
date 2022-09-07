@@ -3,8 +3,12 @@
 }
 
 .ourWines {
-   
+   margin-bottom: 1.6rem;
     color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    
 }
 
 .wine-list {
@@ -23,6 +27,7 @@
     border: 1px solid white;
     border-radius: 8px;
     padding: 10px;
+    margin-bottom: 16px;
     p {
         color: white;
     }
