@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ofvLogo from "../images/ofv_logo_white.png";
 
-export default function Home() {
+export default function Home(wines) {
   const LogoImage = (props) => {
     return (
       <Image
@@ -14,6 +14,7 @@ export default function Home() {
     );
   };
 
+  console.log(wines);
   return (
     <div className="home">
       <LogoImage />

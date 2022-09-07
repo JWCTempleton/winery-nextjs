@@ -2,8 +2,8 @@ import ofvLogo from "../images/ofv_logo_white.png";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function NavBar() {
-  const LogoImage = (props) => {
+export default function NavBar(props) {
+  const LogoImage = () => {
     return (
       <Image
         className="home-logo"
@@ -14,11 +14,14 @@ export default function NavBar() {
       />
     );
   };
+  console.log(props.wines);
   return (
     <nav className="navBar">
       <div className="nav-container">
         <Link href="/">
-          <LogoImage />
+          <a>
+            <LogoImage />
+          </a>
         </Link>
         <ul>
           <Link href="/">

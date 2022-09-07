@@ -1,7 +1,7 @@
 import "../styles/index.scss";
 import NavBar from "../components/NavBar";
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <NavBar />
@@ -11,5 +11,3 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-
-export default MyApp;
