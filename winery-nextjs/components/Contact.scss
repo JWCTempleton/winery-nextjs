@@ -1,0 +1,28 @@
+.container {
+    justify-content: flex-start;
+    padding-top: 9rem;
+}
+
+.contact-title {
+    color:whitesmoke;
+    justify-content: flex-start;
+    font-weight: 700;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+    &--main {
+        font-size: 4rem;
+        letter-spacing: .4rem;
+    }
+
+    &--sub {
+        font-size: 3rem;
+        font-weight: 600;
+        align-self: flex-end;
+        letter-spacing: .3rem;
+        margin-top: .6rem;
+        text-decoration: underline;
+        text-underline-offset: .8rem;
+    }
+}
