@@ -17,12 +17,15 @@ export default function Contact() {
         </div>
         <div className="contact-section--form">
           <form>
+            <input type="text" id="name" name="name" placeholder="Name" />
+            <input type="text" id="email" name="email" placeholder="Email" />
             <input
               type="text"
-              id="fname"
-              name="firstname"
-              placeholder="Your name.."
+              id="subject"
+              name="subject"
+              placeholder="Subject"
             />
+            <input type="text" id="phone" name="phone" placeholder="Phone" />
           </form>
         </div>
       </div>
