@@ -26,7 +26,14 @@ export default function Contact() {
               placeholder="Subject"
             />
             <input type="text" id="phone" name="phone" placeholder="Phone" />
+            <textarea
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Message"
+            />
           </form>
+          <button>Send</button>
         </div>
       </div>
     </div>
