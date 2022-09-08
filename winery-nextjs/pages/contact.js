@@ -6,7 +6,15 @@ export default function Contact() {
         <h2 className="contact-title--sub">Winery and Cave</h2>
       </div>
       <div className="contact-section">
-        <div className="contact-section--info">Olney Family Vineyards</div>
+        <div className="contact-section--info">
+          <h2>CONTACT US and</h2>
+          <h2>WINE SALES</h2>
+          <p>Olney Family Vineyards</p>
+          <p>2253 Dry Creek Road</p>
+          <p>Napa, California 94558</p>
+          <p>707-999-1795</p>
+          <p>wine@ofv.com</p>
+        </div>
         <div className="contact-section--form">
           <form>
             <input

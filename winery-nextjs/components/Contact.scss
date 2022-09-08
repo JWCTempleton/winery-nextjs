@@ -29,8 +29,23 @@
 
 .contact-section {
     display: flex;
-    color: white;
+    color: hsl(288deg, 100%, 95%);
     width: 100%;
     margin-top: 3rem;
     justify-content: space-around;
+
+    &--info {
+        line-height: 3rem;
+        h2 {
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+        p {
+            font-size: 2rem;
+
+            p:first-child {
+                margin-top: 4rem;
+            }
+        }
+    }
 }
