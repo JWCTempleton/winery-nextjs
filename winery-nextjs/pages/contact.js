@@ -36,6 +36,17 @@ export default function Contact() {
           <button>Send</button>
         </div>
       </div>
+      <div c>
+        <iframe
+          className="contact-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.8005108766374!2d-122.34169504989998!3d38.330450187668866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808500b48515a553%3A0x7994e7355c56ee7e!2sOlney%20Family%20Vineyard%2C%20Cave%20and%20Winery!5e0!3m2!1sen!2sus!4v1662678840642!5m2!1sen!2sus"
+          width="800"
+          height="450"
+          allowFullScreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
   );
 }

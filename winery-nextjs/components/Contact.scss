@@ -58,8 +58,8 @@
         }
         input[type=text], select, textarea {
             width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
+            padding: 1.2rem 2rem;
+            margin: .8rem 0;
             display: inline-block;
             border: 1px solid #ccc;
             border-radius: 4px;
@@ -80,4 +80,11 @@
             border-radius: .8rem;
         }
     }
+
+}
+
+.contact-map {
+        width: 80rem;
+        margin: 4rem auto;
+        border: 0;
 }
