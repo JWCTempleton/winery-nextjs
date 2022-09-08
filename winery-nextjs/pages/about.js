@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="container">
       <div className="about">
-        <div className="about-image">image</div>
+        <div className="about-image"></div>
         <div className="about-info">
           <h1 className="para-title">Our Beginning</h1>
           <p className="para-1">
