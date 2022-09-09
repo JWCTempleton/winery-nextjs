@@ -1,0 +1,36 @@
+.visit {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--header {
+        width: 100%;
+        height: 15rem;
+        background-image: linear-gradient(to right bottom, hsla(288,100%,10%, 0.6) ,hsla(288, 100%, 6%, 0.8)),url('../images/wine-tasting.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            color: whitesmoke;
+            font-size: 4.5rem;
+            margin-top: 2rem;
+        }
+    }
+
+    &--info {
+        color: whitesmoke;
+        width: 70%;
+        font-size: 2rem;
+        padding-left: 3rem;
+        margin-top: 1rem;
+
+        p {
+            margin-top: 1.8rem;
+        }
+    }
+}
