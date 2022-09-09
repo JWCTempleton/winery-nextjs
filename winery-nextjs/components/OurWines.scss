@@ -2,6 +2,14 @@
     flex-direction: column;
 }
 
+.wine-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .ourWines {
    margin-bottom: 1.6rem;
    margin-top: 1.6rem;
@@ -14,7 +22,7 @@
 
 .wine-list {
     display: flex;
-    gap:2rem;
+    gap:1.6rem;
     flex-wrap: wrap;
     font-size: 1.6rem;
 }

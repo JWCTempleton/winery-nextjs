@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import ofvLogo from "../images/ofv_logo_white.png";
 
 export default function Home(wines) {
@@ -19,7 +20,9 @@ export default function Home(wines) {
     <div className="home">
       <LogoImage />
       <h1 className="home-title">Olney Family Vineyards</h1>
-      <button className="home-button">Our Wines</button>
+      <Link href="/wines">
+        <button className="home-button">Our Wines</button>
+      </Link>
     </div>
   );
 }
