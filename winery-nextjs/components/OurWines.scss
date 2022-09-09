@@ -22,9 +22,11 @@
 
 .wine-list {
     display: flex;
+    justify-content: center;
     gap:1.6rem;
     flex-wrap: wrap;
     font-size: 1.6rem;
+    margin: 0 auto;
 }
 
 .wine-card {

@@ -15,7 +15,10 @@ export default function OurWines(props) {
                 return (
                   <div className="wine-card" key={wine.id}>
                     <h2>{wine.attributes.type}</h2>
-                    <p>{wine.attributes.name}</p>
+                    <p>
+                      {wine.attributes.name} -{" "}
+                      {wine.attributes.price ? `$${wine.attributes.price}` : ""}
+                    </p>
                     <p>{wine.attributes.description}</p>
                   </div>
                 );
@@ -28,7 +31,10 @@ export default function OurWines(props) {
                 return (
                   <div className="wine-card" key={wine.id}>
                     <h2>{wine.attributes.type}</h2>
-                    <p>{wine.attributes.name}</p>
+                    <p>
+                      {wine.attributes.name} -{" "}
+                      {wine.attributes.price ? `$${wine.attributes.price}` : ""}
+                    </p>
                     <p>{wine.attributes.description}</p>
                   </div>
                 );
